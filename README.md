@@ -13,9 +13,10 @@ This React application uses Google Maps API to calculate and display directions 
 ## Getting Started
 
 
-1. Install dependencies:  
+1. Install dependencies:
+   ```bash
    npm install
-2. Set up your Google Maps API Key:
+3. Set up your Google Maps API Key:
 
 - Create a new project on the Google Cloud Console.
 - Enable the "Directions API" and "Places API" for your project.
@@ -25,8 +26,10 @@ This React application uses Google Maps API to calculate and display directions 
   REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key
 
 3. Run the application:
-   
-   npm start
+  
+  ```bash
+  npm start
+```
    Open http://localhost:3000 in your browser.
 
    
